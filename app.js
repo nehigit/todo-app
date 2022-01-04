@@ -137,7 +137,7 @@ const getTodos = () =>
         trashButton.classList.add('btn-trash');
         todoDiv.appendChild(trashButton);
 
-        todoList.appendChild(todoDiv);
+        todoList.insertBefore(todoDiv, todoList.firstElementChild);
     })
 }
 
