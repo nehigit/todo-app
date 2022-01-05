@@ -7,13 +7,15 @@ html {
 body {
     background-image: linear-gradient(180deg, #333, #555);
     animation: fadeIn 500ms;
+    margin: 0;
+    padding: 0;
 }
 
 main {
     margin-top: 10em;
     align-items: center;
-    width: 90%;
-    max-width: 35rem;
+    width: 100%;
+    max-width: 40rem;
     margin: 0 auto;
     text-align: center;
 }

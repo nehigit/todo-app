@@ -9,7 +9,8 @@ const addTodo = e =>
 {
     e.preventDefault();
 
-    if(todoInput.value == '') return;
+    if(todoInput.value == '' || todoInput.value.trim().length == 0)
+        return;
 
     const todoDiv = document.createElement('div');
     todoDiv.classList.add('todo');
